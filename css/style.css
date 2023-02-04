@@ -252,7 +252,7 @@ body {
 .bg-lightdark { background-color: #35363a; }
 .bg-dark { background-color: #2e2f33!important; }
 .bg-lightgrey { background-color: #f8f9fb; }
-.bg-blue { background-color: #64b567; }
+.bg-blue { background-color: #00a3c8; }
 .bg-deepblue { background-color: #004a91; }
 .bg-steelblue { background-color: #004861; }
 .bg-darkgreen { background-color: #0dc176; }
@@ -474,8 +474,8 @@ ul.content-list li:last-child {
 .btn-blue,
 .white-color .btn-blue {
   color: #fff;
-  background-color: #64b567;
-  border-color: #64b567;
+  background-color: #00a3c8;
+  border-color: #00a3c8;
 }
 
 .btn-darkgreen,
@@ -538,8 +538,8 @@ ul.content-list li:last-child {
 .blue-hover:hover,
 .white-color .blue-hover:hover {
   color: #fff!important;
-  background-color: #3a793c;
-  border-color: #3a793c;
+  background-color: #0e8eab;
+  border-color: #0e8eab;
 }
 
 /*------------------------------------------*/
@@ -880,7 +880,7 @@ span.id-color {
 .steelblue-color li,
 .steelblue-color i, 
 .white-color .steelblue-color,
-.steelblue-color span { color: #29562b; }
+.steelblue-color span { color: #004861; }
 
 .lime-color,
 .lime-color h2, 
@@ -1272,7 +1272,7 @@ p.header-widget-phone {
 }
 
 #hero-1 {
-  background-image: url(../images/header_banner.jpg);
+  background-image: url(../images/hero-1.jpg);
   padding-top: 30px;
 }
 
@@ -1932,15 +1932,10 @@ p.header-widget-phone {
 /*  ABOUT BOX
 /*------------------------------------------*/
 
-#abox-1 { background-color: #64b567; border-radius: 6px 0 0 6px; }
-#abox-2 { background-color: #4a9b4e; }
-#abox-3 { background-color: #3a793c; }
-#abox-4 { background-color: #29562b;  border-radius: 0 6px 6px 0; }
-
-/* #abox-1 { background-color: #36a8eb; border-radius: 6px 0 0 6px; }
+#abox-1 { background-color: #36a8eb; border-radius: 6px 0 0 6px; }
 #abox-2 { background-color: #088edd; }
 #abox-3 { background-color: #1977cc; }
-#abox-4 { background-color: #1063af;  border-radius: 0 6px 6px 0; } */
+#abox-4 { background-color: #1063af;  border-radius: 0 6px 6px 0; }
 
 .abox-1 {
   height: 300px;
