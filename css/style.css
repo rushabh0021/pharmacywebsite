@@ -477,6 +477,12 @@ ul.content-list li:last-child {
   background-color: #00a3c8;
   border-color: #00a3c8;
 }
+.btn-green,
+.white-color .btn-green {
+  color: #fff;
+  background-color: #007b5d;
+  border-color: #007b5d;
+}
 
 .btn-darkgreen,
 .white-color .btn-darkgreen {
@@ -540,6 +546,12 @@ ul.content-list li:last-child {
   color: #fff!important;
   background-color: #0e8eab;
   border-color: #0e8eab;
+}
+.lightgreen-hover:hover,
+.white-color .lightgreen-hover:hover {
+  color: #fff!important;
+  background-color: #00bb8d;
+  border-color: #00bb8d;
 }
 
 /*------------------------------------------*/
@@ -745,7 +757,6 @@ span.id-color {
 }
 
 .section-title p {
-  color: #888;
   padding: 0 20%;
   margin-bottom: 0;
 }
@@ -817,6 +828,18 @@ span.id-color {
 .white-color i, 
 .white-color span { color: #fff; }
 
+.green-color,
+.green-color h2, 
+.green-color h3, 
+.green-color h4, 
+.green-color h5, 
+.green-color h6, 
+.green-color p, 
+.green-color a, 
+.green-color li,
+.green-color i, 
+.green-color span { color: #007b5d; }
+
 .grey-color,
 .grey-color h2, 
 .grey-color h3, 
@@ -871,7 +894,10 @@ span.id-color {
 .white-color .green-color,
 .steelgreen-color .green-color,
 .green-color span { color: #007b5d; }
+.green-color { color: #007b5d; }
+.green-color p { color: #007b5d; }
 .brown-color span { color: #783814; }
+.lightgreen-color { color: #e3f5cf; }
 
 .darkblue-color,
 .darkblue-color h2, 
@@ -1455,16 +1481,16 @@ p.header-widget-phone {
 }
 
 #carousel-slide-1 {
-  background-image: url(../images/carousel/slide-1.jpg); 
+  background-image: url(../images/header_banner.jpg); 
   background-position: top center;
 }
 
 #carousel-slide-2 {
-  background-image: url(../images/carousel/slide-2.jpg); 
+  background-image: url(../images/header_banner.jpg); 
 }
 
 #carousel-slide-3 {
-  background-image: url(../images/carousel/slide-3.jpg); 
+  background-image: url(../images/header_banner.jpg); 
 }
 
 #heroCarousel .mask {
@@ -2240,10 +2266,18 @@ td.text-right {
 .bg-lightgrey .sbox-2:hover h5.sbox-2-title {
   color: #fff;
 }
+.bg-green-shade1 { background-color: #5ea180;}
+.bg-green-shade2 {background-color: #528b6e;}
+.bg-green-shade3 {background-color: #45765d;}
+.bg-green-shade4 {background-color: #39604d;}
+.bg-green-shade5 {background-color: #2c4b3b;}
+.bg-green-shade6 {background-color: #1f362a;}
+.bg-green-shade7 {background-color: #13201a;}
+.bg-green-shade8 {background-color: #13201a;}
+
 
 .sbox-3 {
   text-align: center;
-  background-color: #fff; 
   border: 1px solid #ddd;
   margin: 0 8px 40px;
   padding: 40px 20px 40px;
@@ -2287,7 +2321,6 @@ td.text-right {
 .bg-lightgrey .sbox-3,
 .bg-lightgrey .sbox-5,
 .bg-lightgrey .sbox-7 {
-  background-color: #fff;
   border: 1px solid #f5f5f5;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -2370,7 +2403,6 @@ td.text-right {
 
 .sbox-3 p,
 .sbox-5 p {
-  color: #666;
   font-size: 0.925rem;
   line-height: 1.5;
   margin-bottom: 0;
@@ -2399,13 +2431,26 @@ td.text-right {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
+.sbox-3-icon-green {
+  background-color: #89baa1;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
 
-.sbox-3-icon.st-blue-icon {
+.sbox-3-icon-green.st-blue-icon {
+  background-color: #004861;
+}
+.sbox-3-icon-green.st-blue-icon {
   background-color: #004861;
 }
 
-.icon-sm .sbox-3-icon [class*="flaticon-"]:before,
-.icon-sm .sbox-3-icon [class*="flaticon-"]:after { 
+.icon-sm .sbox-3-icon-green [class*="flaticon-"]:before,
+.icon-sm .sbox-3-icon-green [class*="flaticon-"]:after { 
   color: #fff;
   font-size: 3.45rem;
   line-height: 110px!important;
@@ -3138,7 +3183,7 @@ td.text-right {
   =========================================================================== */
 
 #statistic-1 {
-  background-image: url(../images/statistic.jpg);
+  background-image: url(../images/header_banner.jpg);
   padding-top: 80px;
   padding-bottom: 40px;
 }
@@ -4070,7 +4115,7 @@ td.text-right {
 }
 
 .banner-4-img { 
-  background-image: url(../images/banner-4.jpg);
+  background-image: url(../images/myimages/dummy_img7.jpg);
   background-repeat: no-repeat;
   background-position: center center;   
   background-size: cover;
@@ -5772,5 +5817,11 @@ nav a#pull {
 .s_1 img:hover {
   opacity: 0.8;
 }
-
+.img_800x600 {
+  height: 262px;
+}
+.img_800x640 {
+  height: 800px;
+  width: 640px;
+}
 
