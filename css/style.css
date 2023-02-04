@@ -841,6 +841,8 @@ span.id-color {
 .lightgrey-color i, 
 .white-color .lightgrey-color,
 .lightgrey-color span { color: #ccc; }
+.black-color span { color: #000; }
+.bg-green-color { background-color: #007b5d;}
 
 .blue-color,
 .blue-color h2, 
@@ -855,6 +857,21 @@ span.id-color {
 .white-color .blue-color,
 .steelblue-color .blue-color,
 .blue-color span { color: #00a3c8; }
+
+.green-color,
+.green-color h2, 
+.green-color h3, 
+.green-color h4, 
+.green-color h5, 
+.green-color h6, 
+.green-color p, 
+.green-color a, 
+.green-color li,
+.green-color i, 
+.white-color .green-color,
+.steelgreen-color .green-color,
+.green-color span { color: #007b5d; }
+.brown-color span { color: #783814; }
 
 .darkblue-color,
 .darkblue-color h2, 
@@ -881,6 +898,19 @@ span.id-color {
 .steelblue-color i, 
 .white-color .steelblue-color,
 .steelblue-color span { color: #004861; }
+
+.steelgreen-color,
+.steelgreen-color h2, 
+.steelgreen-color h3, 
+.steelgreen-color h4, 
+.steelgreen-color h5, 
+.steelgreen-color h6, 
+.steelgreen-color p, 
+.steelgreen-color a, 
+.steelgreen-color li,
+.steelgreen-color i, 
+.white-color .steelgreen-color,
+.steelgreen-color span { color: #007b5d; }
 
 .lime-color,
 .lime-color h2, 
@@ -1178,6 +1208,7 @@ span.id-color {
 .hero-widget {
   padding: 15px 0;
   border-bottom: 1px solid #eee;
+  background-color: #e3f5cf;
 }
 
 .header-widget {
@@ -2041,6 +2072,18 @@ p.header-widget-phone {
   border: 1px solid #00a3c8;
   color: #fff;
   box-shadow: none;
+}
+.abox-4-table.green-table {
+  background-color: #007b5d;
+  border: 1px solid #007b5d;
+  color: #fff;
+  box-shadow: none;
+}
+.green-table h5,
+ .green-table p,
+ .green-table table td,
+ .green-table p {
+  color: #e3f5cf;
 }
 
 .abox-4-table h5,

@@ -117,7 +117,7 @@ video {
 
 .wsmainwp {
   margin: 0 auto;
-  max-width: 1140px;
+/*   max-width: 1140px; */
   padding: 0 15px;
   position: relative;
 }
@@ -169,8 +169,11 @@ video {
   float: left;
 }
 
-.wsmenu >.wsmenu-list > li a {
+/* .wsmenu >.wsmenu-list > li a {
   color: #666;
+} */
+.wsmenu >.wsmenu-list > li a {
+  color: #e3f5cf;
 }
 
 .wsmenu >.wsmenu-list > li:hover > a {
