@@ -93,7 +93,7 @@ video {
 
 .wsmenucontainer {
   background-size: cover;
-  background-image: url(../images/bg01.jpg);
+ /*  background-image: url(../images/bg01.jpg); */
   overflow: hidden;
   background-attachment: fixed;
   background-position: 50% 0;
@@ -1199,7 +1199,7 @@ video {
     left: 0;
     z-index: 10002;
     height: 54px;
-    background-color: #eaecf0;
+  /*   background-color: #eaecf0; */
     text-align: center;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;

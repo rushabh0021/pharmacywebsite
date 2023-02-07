@@ -577,7 +577,7 @@
 
   .hero-widget { display: none; }
 
-  .wsmobileheader { height: 70px; background-color: #fff; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
+  .wsmobileheader { height: 70px; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
 
   .wsmobileheader .smllogo { margin-top: 15px; }
   .wsanimated-arrow { padding: 14px 28px 14px 0px; margin: 19px 0 0 20px; }
@@ -953,7 +953,7 @@
 
   .hero-widget { display: none; }
 
-  .wsmobileheader { height: 70px; background-color: #fff; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
+  .wsmobileheader { height: 70px; box-shadow: 0 0 2px rgba(50, 50, 50, 0.4); }
 
   .wsmobileheader .smllogo { margin-top: 15px; }
   .wsanimated-arrow { padding: 14px 28px 14px 0px; margin: 19px 0 0 20px; }
