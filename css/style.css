@@ -257,6 +257,7 @@ body {
 .bg-steelblue { background-color: #004861; }
 .bg-darkgreen { background-color: #0dc176; }
 .bg-lightgreen { background-color: #e3f5cf; }
+.bg-lightgreen span, .bg-lightgreen a { color: #007b5d; }
 .bg-lime { background-color: #89be19; }
 
 /*------------------------------------------*/
@@ -661,6 +662,7 @@ ul.content-list li:last-child {
 .video-btn.play-icon-white { background-color: #fff; color: #333; border-color: #fff; }
 .video-btn.play-icon-tra { background-color: transparent; color: #fff; border-color: #fff; }
 .video-btn.play-icon-blue { background-color: #00a3c8; border-color: #00a3c8; }
+.video-btn.play-icon-green { background-color: #007b5d; border-color: #007b5d; }
 .video-btn.play-icon-lime { background-color: #89be19; border-color: #89be19; }
 
 /*------------------------------------------*/
@@ -1090,7 +1092,7 @@ span.id-color {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  color: #fff;
+  color: #007b5d;
   font-size: 13px;
   float: right;
 }
@@ -1120,13 +1122,13 @@ span.id-color {
 }
 
 .address a {
-  color: #fff;
+  color: #007b5d;
   font-size: 13px;
   line-height: 40px;
 }
 
 .address span {
-  color: #fff;
+  color: #007b5d;
   font-size: 13px;
   line-height: 40px;
   margin-right: 9px;
@@ -1134,7 +1136,7 @@ span.id-color {
 
 .address i {
   position: relative;
-  color: #fff;
+  color: #007b5d;
   font-size: 11px;
   top: -1px;
   margin-right: 7px;
@@ -1192,7 +1194,7 @@ span.id-color {
 
 .bg-lightgrey .address i,
 .bg-lightgrey .headertopright a {
-  color: #5f5f5f;
+  color: #007b5d;
 }
 
 @media only screen and (min-width: 230px) and (max-width:991px) {
@@ -1482,16 +1484,19 @@ p.header-widget-phone {
 }
 
 #carousel-slide-1 {
-  background-image: url(../images/header_banner.jpg); 
+  background-color: #e3f5cf;
+ /*  background-image: url(../images/header_banner.jpg);  */
   background-position: top center;
 }
 
 #carousel-slide-2 {
-  background-image: url(../images/header_banner.jpg); 
+  background-color: #e3f5cf;
+/*   background-image: url(../images/header_banner.jpg);  */
 }
 
 #carousel-slide-3 {
-  background-image: url(../images/header_banner.jpg); 
+  background-color: #e3f5cf;
+/*   background-image: url(../images/header_banner.jpg);  */
 }
 
 #heroCarousel .mask {
@@ -2492,8 +2497,8 @@ td.text-right {
 }
 
 .services-7-table.blue-table {
-  background-color: #00a3c8;
-  border: 1px solid #00a3c8;
+  background-color: #007b5d;
+  border: 1px solid #007b5d;
   color: #fff;
   box-shadow: none;
 }
@@ -3184,7 +3189,8 @@ td.text-right {
   =========================================================================== */
 
 #statistic-1 {
-  background-image: url(../images/header_banner.jpg);
+      background: rgb(227, 245, 207);
+  /* background-image: url(../images/header_banner.jpg); */
   padding-top: 80px;
   padding-bottom: 40px;
 }
