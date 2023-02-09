@@ -256,10 +256,25 @@ body {
 .bg-deepblue { background-color: #004a91; }
 .bg-steelblue { background-color: #004861; }
 .bg-darkgreen { background-color: #0dc176; }
+.bg-darkgreen1 { background-color: #00bb8d; }
+.bg-darkgreen1 span,
+.bg-darkgreen1 p { 
+    color: #fff !important; 
+  }
 .bg-lightgreen { background-color: #e3f5cf; }
 .bg-lightgreen span, .bg-lightgreen a { color: #007b5d; }
 .bg-lime { background-color: #89be19; }
 
+/* Gradient CSS Start*/
+  .navbar-gradient-dark-start {
+    background: rgb(35, 73, 74);
+    background: linear-gradient(90deg, rgba(35, 73, 74, 1) 0%, rgba(191, 255, 199, 1) 100%);
+  }
+  .navbar-gradient-light-start {
+    background: rgb(191, 255, 199);
+    background: linear-gradient(90deg, rgba(191, 255, 199, 1) 0%, rgba(35, 73, 74, 1) 100%);
+  }
+/* Gradient CSS end */
 /*------------------------------------------*/
 /*   BORDER SETTINGS FOR DEMOS
 /*------------------------------------------*/
@@ -2111,6 +2126,12 @@ p.header-widget-phone {
   color: #fff;
   box-shadow: none;
 }
+.abox-4-table.green-table1 {
+  background-color: #00bb8d;
+  border: 1px solid #00bb8d;
+  color: #fff;
+  box-shadow: none;
+}
 .green-table h5,
  .green-table p,
  .green-table table td,
@@ -2929,7 +2950,7 @@ td.text-right {
   background-color: #f8f8f8;
   color: #333;
   border: none;
-  border-right: 2px solid #00a3c8;
+  border-right: 2px solid #007b5d;
 }
 
 .nav-pills .nav-link:hover {
@@ -4711,7 +4732,7 @@ p.contact-notice {
 }
 
 .footer.bg-image {
-  background-image: url(../images/footer-bg.jpg);
+/*   background-image: url(../images/footer-bg.jpg); */
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;   
@@ -4932,7 +4953,7 @@ p.footer-copyright span {
 }
 
 .footer.bg-image .bottom-footer {
-  border-top: 1px solid #16739d;
+  border-top: 1px solid #007b5d;
 }
 
 
