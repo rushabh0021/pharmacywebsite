@@ -93,7 +93,7 @@ video {
 
 .wsmenucontainer {
   background-size: cover;
-  background-image: url(../images/bg01.jpg);
+ /*  background-image: url(../images/bg01.jpg); */
   overflow: hidden;
   background-attachment: fixed;
   background-position: 50% 0;
@@ -117,7 +117,7 @@ video {
 
 .wsmainwp {
   margin: 0 auto;
-  max-width: 1140px;
+/*   max-width: 1140px; */
   padding: 0 15px;
   position: relative;
 }
@@ -169,12 +169,15 @@ video {
   float: left;
 }
 
-.wsmenu >.wsmenu-list > li a {
+/* .wsmenu >.wsmenu-list > li a {
   color: #666;
+} */
+.wsmenu >.wsmenu-list > li a {
+  color: #e3f5cf;
 }
 
 .wsmenu >.wsmenu-list > li:hover > a {
-  color: #00a3c8;
+  color: #00dda7;
 }
 
 .wsmenu > .wsmenu-list > li > a {
@@ -1196,7 +1199,7 @@ video {
     left: 0;
     z-index: 10002;
     height: 54px;
-    background-color: #eaecf0;
+  /*   background-color: #eaecf0; */
     text-align: center;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
