@@ -4944,8 +4944,8 @@ p.footer-copyright span {
 }
 
 .footer.bg-image .foo-socials a {
-  border: 2px solid #c5d1dc;
-  color: #c5d1dc;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .foo-socials a.ico-facebook:hover { background-color: #3b5998; border-color: #3b5998; color: #fff; }
