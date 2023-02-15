@@ -5968,3 +5968,13 @@ nav a#pull {
 .orange-color {
   color: #fea128;
 }
+
+.bg-clean-blue-dark {
+  background-color: #5680e9;
+}
+.bg-clean-blue-light {
+  background-color: #84ceeb;
+}
+.bg-clean-blue-mid {
+  background-color: #5ab9ea;
+}
