@@ -698,6 +698,7 @@ ul.content-list li:last-child {
 .video-btn.play-icon-white { background-color: #fff; color: #333; border-color: #fff; }
 .video-btn.play-icon-tra { background-color: transparent; color: #fff; border-color: #fff; }
 .video-btn.play-icon-blue { background-color: #00a3c8; border-color: #00a3c8; }
+.video-btn.play-icon-skyblue { background-color: #99bfe4; border-color: #99bfe4; }
 .video-btn.play-icon-green { background-color: #007b5d; border-color: #007b5d; }
 .video-btn.play-icon-green { background-color: #007b5d; border-color: #007b5d; }
 .video-btn.play-icon-lime { background-color: #89be19; border-color: #89be19; }
@@ -1530,7 +1531,7 @@ p.header-widget-phone {
 #carousel-slide-2::after,
 #carousel-slide-3::after {
   content: "";
-    background: #0daa50;
+    background: #000;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2175,6 +2176,12 @@ p.header-widget-phone {
   color: #fff;
   box-shadow: none;
 }
+.abox-4-table.skyblue-table {
+  background-color: #99bfe4;
+  border: 1px solid #99bfe4;
+  color: #fff;
+  box-shadow: none;
+}
 .abox-4-table.green-table {
   background-color: #007b5d;
   border: 1px solid #007b5d;
@@ -2359,12 +2366,26 @@ td.text-right {
 .bg-grey-color {
   background-color: #5b6773 ;
 }
-.bg-green-shade1.sbox-3 h5,
+
 .bg-green-shade1.sbox-3 p {
   color: #fff;
 }
+.bg-green-shade1.sbox-3 h5 {
+  color: #99bfe4;
+}
+
+.bg-light-grey { background-color: #f5f8fa;}
+
+
+.bg-light-grey.sbox-3 p {
+  color: #000;
+}
+.bg-light-grey.sbox-3 h5 {
+  color: #99bfe4;
+}
+
 .bg-black-color { background-color: #231F20;}
-.sbox-3.icon-sm.bg-green-shade1 {
+.sbox-3.icon-sm.bg-light-grey {
   height: 350px;
 }
 
@@ -2533,6 +2554,16 @@ td.text-right {
   -o-border-radius: 100%;
   border-radius: 100%;
 }
+.sbox-3-icon-skyblue {
+  background-color: #99bfe4;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
 
 .sbox-3-icon-green.st-blue-icon {
   background-color: #004861;
@@ -2543,6 +2574,12 @@ td.text-right {
 
 .icon-sm .sbox-3-icon-green [class*="flaticon-"]:before,
 .icon-sm .sbox-3-icon-green [class*="flaticon-"]:after { 
+  color: #fff;
+  font-size: 3.45rem;
+  line-height: 110px!important;
+}
+.icon-sm .sbox-3-icon-skyblue [class*="flaticon-"]:before,
+.icon-sm .sbox-3-icon-skyblue [class*="flaticon-"]:after { 
   color: #fff;
   font-size: 3.45rem;
   line-height: 110px!important;
@@ -2583,12 +2620,22 @@ td.text-right {
 }
 
 .services-7-table.blue-table {
-  background-color: #00a3c8;
-  border: 1px solid #00a3c8;
+  background-color: #99bfe4;
+  border: 1px solid #99bfe4;
   color: #fff;
   box-shadow: none;
 }
-
+.services-7-table.skyblue-table {
+  background-color: #99bfe4;
+  border: 1px solid #99bfe4;
+  color: #fff;
+  box-shadow: none;
+}
+.services-7-table.skyblue-table h4,
+.services-7-table.skyblue-table td,
+.services-7-table.skyblue-table h5 {
+  color: #fff;
+}
 .services-7-table h5,
 .services-7-table h4 {
   margin-bottom: 15px;
@@ -3015,7 +3062,7 @@ td.text-right {
   background-color: #f8f8f8;
   color: #333;
   border: none;
-  border-right: 2px solid #007b5d;
+  border-right: 2px solid #333333;
 }
 
 .nav-pills .nav-link:hover {
@@ -3289,7 +3336,7 @@ td.text-right {
     top: 0;
     width: 100%;
     z-index: 0;
-    background: #12aa50;
+    background: #000;
     opacity: 0.9;
 }
 #statistic-1 span,
@@ -5977,4 +6024,38 @@ nav a#pull {
 }
 .bg-clean-blue-mid {
   background-color: #5ab9ea;
+}
+.bg-color-sky-blue {
+  background-color: #99bfe4;
+}
+.bg-color-black {
+  background-color: #333333;
+}
+.btn-skyblue {
+  color: #fff;
+  background-color: #99bfe4;
+  border-color: #99bfe4;
+}
+.black-hover:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+.color-skyblue {
+  color: #99bfe4 !important;
+}
+#breadcrumb {
+  position: relative;
+}
+#breadcrumb::after {
+  content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+}
+#services-7 .sbox-7 {
+  height: 180px;
 }
