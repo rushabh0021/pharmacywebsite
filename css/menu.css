@@ -173,13 +173,16 @@ video {
   color: #666;
 } */
 .wsmenu >.wsmenu-list > li a {
-  color: #CCC;
+  color: #333333;
 }
 .wsmenu >.wsmenu-list.color-white > li a {
   color: #fff;
 }
 .wsmenu >.wsmenu-list.color-white > li:hover {
   color: #333333;
+}
+.wsmenu >.wsmenu-list.black-color > li:hover > a {
+  color: #fff;
 }
 
 .wsmenu >.wsmenu-list > li:hover > a {

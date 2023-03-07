@@ -1537,6 +1537,20 @@ p.header-widget-phone {
     position: absolute;
     left: 0;
     top: 0;
+    opacity: 0.7;
+}
+.blog-post-img,
+.img-fluid {
+  position: relative;
+}
+.blog-post-img::after {
+  content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
     opacity: 0.4;
 }
 #carousel-slide-1 span,
@@ -2633,8 +2647,9 @@ td.text-right {
 }
 .services-7-table.skyblue-table h4,
 .services-7-table.skyblue-table td,
+.services-7-table.skyblue-table p,
 .services-7-table.skyblue-table h5 {
-  color: #fff;
+  color: #333333;
 }
 .services-7-table h5,
 .services-7-table h4 {
@@ -6030,6 +6045,12 @@ nav a#pull {
 }
 .bg-color-black {
   background-color: #333333;
+}
+.bg-color-black p,
+.bg-color-black h5,
+.bg-color-black span,
+.bg-color-black a {
+  color: white !important;
 }
 .btn-skyblue {
   color: #fff;
