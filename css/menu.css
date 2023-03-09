@@ -174,6 +174,7 @@ video {
 } */
 .wsmenu >.wsmenu-list > li a {
   color: #333333;
+  font-weight: 500;
 }
 .wsmenu >.wsmenu-list.color-white > li a {
   color: #fff;

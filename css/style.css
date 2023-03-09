@@ -2394,9 +2394,9 @@ td.text-right {
 .bg-light-grey.sbox-3 p {
   color: #000;
 }
-.bg-light-grey.sbox-3 h5 {
+/* .bg-light-grey.sbox-3 h5 {
   color: #99bfe4;
-}
+} */
 
 .bg-black-color { background-color: #231F20;}
 .sbox-3.icon-sm.bg-light-grey {
@@ -6079,4 +6079,15 @@ nav a#pull {
 }
 #services-7 .sbox-7 {
   height: 180px;
+}
+.services-card:hover {
+  transition: 0.3s ease-in;
+  box-shadow: 0px 2px 10px #ccc;
+}
+.services-card:hover h5 {
+  transition: 0.3s ease-in;
+ color: #99bfe4;
+}
+.blog-post.wow:hover a {
+  color: #99bfe4;
 }

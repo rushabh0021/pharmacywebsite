@@ -139,7 +139,7 @@ $(document).ready(function () {
 	var owl = $('.services-holder');
 	owl.owlCarousel({
 		items: 4,
-		loop: true,
+		loop: false,
 		autoplay: true,
 		navBy: 1,
 		autoplayTimeout: 4500,
