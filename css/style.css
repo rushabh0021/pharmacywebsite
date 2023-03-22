@@ -4074,12 +4074,12 @@ td.text-right {
 
 .reviews-section .owl-theme .owl-dots .owl-dot span {
   background: transparent;
-  border: 2px solid #004861;
+  border: 2px solid #333333;
 }
 
 .reviews-section .owl-theme .owl-dots .owl-dot.active span, 
 .reviews-section .owl-theme .owl-dots .owl-dot:hover span {
-  background: #004861;
+  background: #333333;
 }
 
 
@@ -4121,11 +4121,25 @@ td.text-right {
 }
 
 #banner-8 {
-  background-image: url(../images/banner-8.jpg);
+  background-image: url(../images/carousel/carousel_image.jpeg);
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
-
+#banner-8::after {
+  content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+}
+#banner-8 .banner-txt {
+  z-index: 110001;
+  position: inherit;
+}
 #banner-5 .container {
   overflow: hidden;
 }
