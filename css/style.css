@@ -6147,3 +6147,12 @@ nav a#pull {
   color: black;
   font-weight: 350;
 }
+
+.padding-0 {
+  padding: 0;
+}
+.no-padding span {
+  font-weight: 400;
+  padding-bottom: 7px;
+  line-height: 21px;
+}
