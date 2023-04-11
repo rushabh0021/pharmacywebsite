@@ -4,7 +4,7 @@ $(document).ready(function () {
 	var servicesCards = document.querySelectorAll(".sbox-3.icon-sm");
 	Array.from(servicesCards).forEach(function (elem) {
 		elem.addEventListener("click", function () {
-			window.location.href = "/all-services.html"
+			window.location.href = window.location.href.replace("index.html", "all-services.html")
 		});
 	})
 });
