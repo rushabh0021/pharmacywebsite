@@ -2559,7 +2559,7 @@ td.text-right {
   border-radius: 100%;
 }
 .sbox-3-icon-green {
-  background-color: #89baa1;
+  background-color: #04AD04;
   display: inline-block;
   width: 110px;
   height: 110px;
@@ -2720,12 +2720,12 @@ td.text-right {
 
 .services-section .owl-theme .owl-dots .owl-dot span {
   background: transparent;
-  border: 2px solid #004861;
+  border: 2px solid #993300;
 }
 
 .services-section .owl-theme .owl-dots .owl-dot.active span, 
 .services-section .owl-theme .owl-dots .owl-dot:hover span {
-  background: #004861;
+  background: #993300;
 }
 
 /*------------------------------------------*/
@@ -6071,9 +6071,19 @@ nav a#pull {
   background-color: #99bfe4;
   border-color: #99bfe4;
 }
+.btn-brown {
+  color: #fff;
+  background-color: #993300;
+  border-color: #993300;
+}
 .black-hover:hover {
   background-color: #333333;
   border-color: #333333;
+}
+.dark-brown:hover {
+  background-color: #4D1A00;
+  border-color: #4D1A00;
+  color: #fff;
 }
 .color-skyblue {
   color: #99bfe4 !important;
@@ -6100,22 +6110,23 @@ nav a#pull {
 }
 .services-card:hover h5 {
   transition: 0.3s ease-in;
- color: #99bfe4;
+ color: #04AD04;
 }
 .blog-post.wow:hover a {
-  color: #99bfe4;
+  color: #04AD04;
 }
 
 .accordion {
-  background-color: #99bfe4;
-  color: #444;
+  background-color: #04AD04;
+  color: #fff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 400;
   transition: 0.4s;
   margin-bottom: 10px;
   border-radius: 10px;
@@ -6155,4 +6166,34 @@ nav a#pull {
   font-weight: 400;
   padding-bottom: 7px;
   line-height: 21px;
+}
+.branch-images img{
+  height: 450px;
+}
+.branch-images .branch-image{
+  padding: 0;
+}
+.branch-images {
+  padding-bottom: 100px;
+}
+.acorn-green-background {
+  background-color: #04AD04;
+}
+.acorn-green-color {
+  color: #04AD04;
+}
+.bg-white-color a{ 
+  color: black !important;
+}
+.color-brown {
+  color: #993300;
+}
+.acorn-green-background,
+.acorn-green-background h2,
+.acorn-green-background h3,
+.acorn-green-background h4,
+.acorn-green-background h5,
+.acorn-green-background h6, 
+.acorn-green-background td {
+  color: white;
 }
