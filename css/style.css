@@ -6169,6 +6169,10 @@ nav a#pull {
 }
 .branch-images img{
   height: 450px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
 }
 .branch-images .branch-image{
   padding: 0;
